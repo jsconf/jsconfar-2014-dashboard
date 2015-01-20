@@ -1,0 +1,154 @@
+{
+	"talks": [
+		{
+			"break": true,
+			"title": "Check in",
+			"type": "checkin",
+			"message": "",
+			"sponsor": ""
+		},
+		{
+			"title": "How I learned to Code by Making 180 websites in 180 days",
+			"name": "Jennifer De Walt",
+			"twitter": "JenniferDewalt",
+			"img": "jennifer-dewalt.jpg"
+		},
+		{
+			"title": "ES6 Rocks!",
+			"name": "Jaydson Gomes",
+			"twitter": "jaydson",
+			"img": "jaydson-gomes.jpg"
+		},
+		{
+			"title": "Moving JS from Libraries to Polyfills",
+			"name": "Sebastián Markbage",
+			"twitter": "sebmarkbage",
+			"img": "sebastian-markbage.jpg"
+		},
+		{
+			"break": true,
+			"title": "Coffee",
+			"type": "break",
+			"message": "",
+			"sponsor": "Digital Ocean"
+		},
+		{
+			"title": "Making 3D Graphics Accessible",
+			"name": "Mr Doob (Ricardo Cabello)",
+			"twitter": "mrdoob",
+			"img": "ricardo-cabello.jpg"
+		},
+		{
+			"title": "Parallax 101",
+			"name": "María Evangelina Ferreira",
+			"twitter": "evaferreira92",
+			"img": "maria-evangelina-ferreira.jpg"
+		},
+		{
+			"title": "Internationalize your web apps",
+			"name": "Juan Ignacio Dopazo",
+			"twitter": "juandopazo",
+			"img": "juan-ignacio-dopazo.jpg"
+		},
+		{
+			"title": "Visualizing data with JavaScript at Twitter",
+			"name": "Nicolás García Belmonte",
+			"twitter": "philogb",
+			"img": "nicolas-garcia.jpg"
+		},
+		{
+			"break": true,
+			"title": "Lunch",
+			"type": "lunch",
+			"message": "",
+			"sponsor": "Mandrill"
+		},
+		{
+			"title": "From JS to manufacturing, a hardware journey",
+			"name": "Sara Chipps",
+			"twitter": "SaraJChipps",
+			"img": "sara-chipps.jpg"
+		},
+		{
+			"title": "JavaScript and Artificial Intelligence",
+			"name": "Ángel \"Java\" López",
+			"twitter": "ajlopez",
+			"img": "angel-java-lopez.jpg"
+		},
+		{
+			"title": "Else Considered Harmful",
+			"name": "Nikolay Bachiyski",
+			"twitter": "nikolayb",
+			"img": "nikolai-bachiyski.jpg"
+		},
+		{
+			"break": true,
+			"title": "Break",
+			"type": "break",
+			"message": "",
+			"sponsor": "Digital Ocean"
+		},
+		{
+			"title": "Your Very Own Component Library",
+			"name": "Alex Sexton",
+			"twitter": "SlexAxton",
+			"img": "alex-sexton.jpg"
+		},
+		{
+			"title": "Writing a Webmodule",
+			"name": "Nathan Rajlich",
+			"twitter": "TooTallNate",
+			"img": "nathan-rajlich.jpg"
+		},
+		{
+			"title": "Building Editors in the Browser",
+			"name": "Jason Chen",
+			"twitter": "jhchen",
+			"img": "jason-chen.jpg"
+		},
+		{
+			"break": true,
+			"title": "Break",
+			"type": "break",
+			"message": "",
+			"sponsor": "Digital Ocean"
+		},
+		{
+			"title": "JavaScript Robotics: A NodeBots show",
+			"name": "Julian Duque",
+			"twitter": "julian_duque",
+			"img": "julian-duque.jpg"
+		},
+		{
+			"title": "Building a Distributed Data Ingestion System with RabbitMQ",
+			"name": "Álvaro Videla",
+			"twitter": "old_sound",
+			"img": "alvaro-videla.jpg"
+		},
+		{
+			"title": "Sandboxing Node.js with CoreOS and Docker",
+			"name": "Tomasz Janczuk",
+			"twitter": "tjanczuk",
+			"img": "tomasz-janczuk.jpg"
+		},
+		{
+			"title": "j2me.js - a multi-threaded Java VM in JavaScript",
+			"name": "Andreas Gal",
+			"twitter": "andreasgal",
+			"img": "andreas-gal.jpg"
+		},
+		{
+			"title": "The future of Javascript",
+			"name": "Brendan Eich",
+			"twitter": "BrendanEich",
+			"img": "brendan-eich.jpg"
+		},
+		{
+			"break": true,
+			"title": "Party",
+			"type": "party",
+			"message": "",
+			"sponsor": "Github"
+		}
+	]
+}

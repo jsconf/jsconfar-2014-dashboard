@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8"/>
+
+  <!--
+  '+++'   -++/++++++++++++++++++++++++++++++++-                                                     
+  -+:` `-++sdNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+  `` `-++sdNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+   `-++sdNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+  .++sdNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+  -smNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+  +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+  +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+  +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+  +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                                     
+  +NNNNNNNNNNNNNNNNNNNysssdNNNNNhso++oymNNNNNN+                                                     
+  +NNNNNNNNNNNNNNNNNNN+...sNNNh:........+mNNNN+                                                     
+  +NNNNNNNNNNNNNNNNNNN+...sNNd...-ydds-+hmNNNN+                                                     
+  +NNNNNNNNNNNNNNNNNNN/...sNNd...-hNNNNNNNNNNN+       `:/++/-                              `:osso-  
+  +NNNNNNNNNNNNNNNNNNN/...sNNNs....-/oymNNNNNN+     .yNmysyNNh`                           :mNy//+.  
+  +NNNNNNNNNNNNNNNNNNN/...sNNNNdo:....../hNNNN+     hNm.   ymd.  :oyhhy+`  .yy+.oyhy-  /yydNNhyys   
+  +NNNNNNNNNNNNNNNNNNN+...sNNNNNNNmhs/....hNNN+    .NNy        `dNd/-/mNd  /NNh+:+NNh  -:/NNd:::-   
+  +NNNNNNNNNNNNNdyNNNN/...yNNmhohNNNNNo...+NNN+    /NN/    ``  +NN/  `mNd  yNN.  -NNo    :NN+       
+  +NNNNNNNNNNNy:..:os+...-dNd:.../oss+-...yNNN+    sNN:   sNm: hNN.  :NNo `mNd   +NN:    sNN-       
+  +NNNNNNNNNNNNs:......./dNNNmo:.......-/hNNNN+    -dNmhhmNd:  /mNdyymms` :NNo   hNm`    dNm        
+  +NNNNNNNNNNNNNNmhyyyhmNNNNNNNNmhyyyhdmNNNNNN+      .::::.     `-:::-`   .::`   +++    .NNs        
+  +NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN+                                         /mm/        
+  `+++++++++++++++++++++++++++++++++++++++++++`                                                     
+  -->
+  <link rel="stylesheet" href="/static/styles/styles.css?20141118" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <title>JSConf Buenos Aires - Conferences for the Javascript Community</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"/>
+</head>
+<body data-tv="3">
+  <main id="speakers-map" class="static">
+    <h1 id="speakerHeader">Now Speaking</h1>
+    <section id="speakers">
+      {{#talks}}
+        {{#if this.type}}
+          {{> break}}
+        {{else}}
+          {{> speaker}}
+        {{/if}}
+        
+      {{/talks}}
+      <article class="empty">
+      </article>
+    </section>
+  </main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>if( ! window.jQuery ) { document.write('<script src="js/jquery.min.js"><\/script>'); }</script>
+
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="/static/js/scripts.js?f=20141103"></script>
+
+</body>
+</html>

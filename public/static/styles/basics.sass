@@ -1,0 +1,42 @@
+// Resets, typography, useful stuff
+
+html, body
+  margin: 0
+  padding: 0
+  font-family: "InputMono", "Consolas", "Lucida Console", "Courier", monospace
+  font-size: 41px
+  line-height: 160%
+  color: #fff
+
+*, *:before, *:after
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+input, textarea, select, button, a
+  &:focus
+    outline: none
+
+html
+  // The scrollbar is always visible on Windows
+  overflow-y: scroll
+
+h1, h2, h3, h4, h5, h6, p, ul, ol
+  line-height: 100%
+  margin: 0
+  font-weight: normal
+
+h1
+  text-align: center
+  font-size: 36px
+
+p
+  text-align: center
+  line-height: 160%
+
+a
+  text-decoration: none
+  cursor: pointer
+
+svg
+  max-height: 100%
