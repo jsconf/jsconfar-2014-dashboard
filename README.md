@@ -8,7 +8,7 @@ Each TV had a notebook with a browser in kiosk mode and it connected to the serv
 
 To deploy the dashboard just follow simple steps:
 
-**1. Download dependencies **
+**1. Download dependencies**
 ```
 npm install
 ```
