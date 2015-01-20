@@ -1,0 +1,103 @@
+#streams
+  width: 100%
+  height: 50%
+  overflow: hidden
+  
+  .top
+    height: 52%
+    width: 100%
+  .bottom
+    height: 48%
+    width: 100%
+  .logo
+    position: relative
+
+  article
+    display: block
+    float: left
+    text-align: center
+    width: 50%
+    height: 100%
+    h1
+      padding-top: 20%
+    h2
+      opacity: .4
+    &#swarm
+      color: $swarm
+      .logo
+        background: url(../images/logo-swarm.png) no-repeat center $swarm
+        &:after
+          content: ""
+          display: block
+          border: 30px solid transparent
+          border-top: 30px solid $swarm
+          position: absolute
+          top: 100%
+          left: 50%
+          margin-left: -30px
+          -webkit-transform: scale(1.5,1)
+    &#youtube
+      color: $youtube
+      h1
+        padding-top: 23%
+      .logo
+        background: url(../images/logo-youtube.png) no-repeat center $youtube
+        &:after
+          content: ""
+          display: block
+          border: 30px solid transparent
+          border-bottom: 30px solid $youtube
+          position: absolute
+          bottom: 100%
+          left: 50%
+          margin-left: -30px
+          -webkit-transform: scale(1.5,1)
+
+#twitter
+  height: 50%
+  background: $twitter
+
+  article
+    height: 75%
+    padding: 45px 50px
+
+    header
+      overflow: hidden
+      margin-bottom: 45px
+
+      .avatar
+        float: left
+        width: 25%
+        border-radius: 35px
+      .name
+        float: right
+        width: 70%
+        padding-top: .4em
+
+  footer
+    height: 25%
+    background: url(../images/logo-twitter.png) no-repeat right center darken($twitter, 15%)
+    padding: 45px 50px
+#social
+  h1
+    font-size: 4.5em
+    font-weight: bold
+
+  h2
+    font-size: 1.25em
+    font-weight: bold
+
+  h3
+    font-size: 1.35em
+    line-height: 1.2em
+    margin-bottom: .5em
+    font-weight: bold
+
+  h4
+    font-size: 1em
+    color: #025d7f
+    line-height: 1.2em
+
+  h5
+    font-size: 2.8em
+    font-weight: bold

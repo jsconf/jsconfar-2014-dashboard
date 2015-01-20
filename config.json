@@ -1,0 +1,17 @@
+{
+	"twitter": {
+		"consumer_key": "",
+		"consumer_secret": "",
+		"access_token_key": "",
+		"access_token_secret": "",
+		"hash": "jsconfar"
+	},
+	"foursquare": {
+		"client_id": "",
+		"client_secret": "",
+		"venue": ""
+	},
+	"youtube": {
+		"live": ""
+	}
+}

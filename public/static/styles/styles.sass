@@ -1,0 +1,32 @@
+@charset "UTF-8"
+
+@mixin background-size($all)
+  -webkit-background-size: $all
+  -moz-background-size: $all
+  -ms-background-size: $all
+  -o-background-size: $all
+  background-size: $all
+
+$swarm: #ffa71b
+$youtube: #c40000
+$twitter: #3ecaff
+$blue: #1f425c
+$yellow: #ffc300
+$green: #009e79
+
+@import "normalize.scss"
+@import "fonts.scss"
+
+@import "basics.sass"
+@import "media.sass"
+@import "social.sass"
+@import "speakers-map.sass"
+
+@import "mobile.sass"
+
+main
+  width: 1080px
+  height: 1920px
+
+body::-webkit-scrollbar
+  width: 0 !important
