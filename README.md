@@ -4,6 +4,8 @@ On the venue we setup three 60" TVs to display information about the event (like
 
 Each TV had a notebook with a browser in kiosk mode and it connected to the server running "node server.js"
 
+![alt tag](https://raw.githubusercontent.com/sbehrends/jsconfar-2014-dashboard/master/public/static/images/dashboard.jpg)
+
 To deploy the dashboard just follow simple steps:
 
 **1. Download dependencies **
